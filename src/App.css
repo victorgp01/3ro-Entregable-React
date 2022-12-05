@@ -1,0 +1,69 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://i.blogs.es/669147/ram-s6-key--rt-1920x1080/1366_2000.jpeg);
+  background-size: 100%;
+}
+
+.residents-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: rgb(17, 157, 66);
+  padding: 10px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.btn_input {
+  width: 50vh;
+  height: 32px;
+}
+
+.search_btn {
+  cursor: pointer;
+  background: rgb(17, 157, 66);
+  color: white;
+}
+
+.resident_location {
+  position: relative;
+  font-size: 20px;
+  margin: 10px;
+  color: rgb(225, 251, 201);
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10 px;
+  background: #062226;
+}
+
+.resident_title {
+  display: flex;
+  justify-content: center;
+  color: rgb(229, 250, 205);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li {
+  display: grid;
+}
+
+.error {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
