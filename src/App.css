@@ -21,6 +21,8 @@
   justify-content: center;
   color: rgb(17, 157, 66);
   padding: 10px;
+  font-weight: 600;
+  font-size: 2.5em;
 }
 
 .form {
