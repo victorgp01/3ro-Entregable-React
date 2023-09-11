@@ -37,7 +37,7 @@
    border-radius: 50%;
 }
 .Alive {
-   background-color: green;
+   background-color: rgb(121, 239, 121);
 }
 
 .Dead {
@@ -45,8 +45,9 @@
 }
 
 .unknown {
-   background-color: yellow;
+   background-color: rgb(226, 255, 9);
 }
+
 .card__body {
    padding: 15px;
    background: #062226;
