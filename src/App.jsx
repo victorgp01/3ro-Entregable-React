@@ -41,7 +41,12 @@ function App() {
       <div className="App">
          <h1 className="title">RICK AND MORTY</h1>
          <form className="form" onSubmit={handleSumit}>
-            <input className="btn_input" id="inputSearch" type="text" />
+            <input
+               className="btn_input"
+               id="inputSearch"
+               type="text"
+               placeholder="Enter a number from 1 to 126"
+            />
             <button className="search_btn">Search</button>
          </form>
          {hasError ? (
